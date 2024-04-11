@@ -3,6 +3,11 @@
   padding: 10px;
 }
 
+.pagetitle {
+  border: double 10px;
+  padding: 5px;
+  display: block;
+}
 a {
   font-size: medium;
   gap: 30px;
