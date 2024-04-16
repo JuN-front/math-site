@@ -1,6 +1,9 @@
 .contents-wrapper {
   text-align: center;
   padding: 10px;
+  background-image: url("./background.webp");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .pagetitle {
@@ -11,7 +14,7 @@
 a {
   font-size: medium;
   gap: 30px;
-  color: aqua;
+  color: blue;
   margin: 15px;
 }
 
