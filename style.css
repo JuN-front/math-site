@@ -6,13 +6,18 @@
   background-attachment: fixed;
 }
 
+.caution {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
 .page-title {
   border: double 10px;
   padding: 5px;
   display: block;
 }
 a {
-  font-size: medium;
+  font-size: 18px;
   gap: 30px;
   color: blue;
   margin: 15px;
@@ -29,4 +34,13 @@ a {
 
 .paraphrase-2 {
   background: linear-gradient(transparent 70%, pink 60%);
+}
+
+@media (max-width: 600px) {
+  a {
+    font-size: 14px;
+  }
+  .caution {
+    font-size: 14px;
+  }
 }
