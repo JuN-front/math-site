@@ -36,7 +36,7 @@ a {
   background: linear-gradient(transparent 70%, pink 60%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   a {
     font-size: 14px;
   }
